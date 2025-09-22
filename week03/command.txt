@@ -1,0 +1,25 @@
+    1  init 0
+    3  sudo apt update && sudo apt upgrade -y
+    4  sudo apt-get update && sudo apt upgrade -y
+    5  sudo apt install -y vim git curl wget build-essential
+    7  sudo apt update
+    8  sudo apt install openssh-server
+    9  sudo systemctl status ssh
+   10  sudo systemctl start ssh
+   11  sudo systemctl status ssh
+   12  sudo passwd root
+   13  su -
+   14  sudo init 0
+   18  mkdir cloud_computing
+   19  cd cloud_computing/
+   20  sudo git init
+   22  sudo git status
+   23  touch README.md
+   28  vim command.txt 
+   36  sudo systemctl start ssh
+   37  sudo systemctl status ssh
+   41  ip addr show
+   43  ip addr | grep 'inet '
+   56  git config --global --add safe.directory /home/deepblue/cloud_computing
+   57  git status
+   60  history >> command.txt
